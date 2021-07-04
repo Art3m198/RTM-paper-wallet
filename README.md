@@ -1,4 +1,4 @@
-# RTM-paper-wallet
+# Raptoreum (RTM) paper wallet
 A simple Raptoreum paper wallet
 
 ### Use this wallet at your own risk.
