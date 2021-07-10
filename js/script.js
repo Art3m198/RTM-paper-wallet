@@ -17,7 +17,6 @@ function getConfig() {
 					'public': 0x0488b21e,
 					'private': 0x0488ade4
 				},
-				'bech32': 'RTM',
 				'pubKeyHash': 0x3c,
 				'scriptHash': 0x7a,
 				'wif': 0x80
@@ -70,12 +69,5 @@ function getAddress(keys) {
 
 function getAddressType() {
 	var type = 'legacy'
-	/**
-	var type = readCookie('type')
-	if (type == null || !['bech32', 'segwit', 'legacy'].includes(type)) {
-		setCookie('type', 'legacy', 60)
-		type = readCookie('type')
-	}
-	*/
 	return type
 }
