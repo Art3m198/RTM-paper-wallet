@@ -13,6 +13,7 @@ body {
   font-weight: 400;
   overflow-y: scroll;
   background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
   margin: 0;
 }
 
