@@ -7,5 +7,5 @@ A simple Raptoreum paper wallet
 https://art3m198.github.io/RTM-paper-wallet/
 
 # Donate RTM: 
-RRRyYSXP4qymydKeZ686cYF4KSp4inGhEB
+RUSLhpYvLVkirXmG6bzGFaUrmn7GmiZ21G
 
