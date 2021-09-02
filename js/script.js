@@ -36,6 +36,8 @@ function newrtm(){
 		var addrurl = "https://explorer.raptoreum.com/address/"+address;
 		document.getElementById("address").innerHTML = address;
 		document.getElementById("secret").innerHTML = keys.toWIF();
+		document.getElementById("address-top").innerHTML = address;
+		document.getElementById("secret-top").innerHTML = keys.toWIF();
 		document.getElementById("addr").href = addrurl;
 		qrcodeAddress.makeCode(address);
 		qrcodeSecret.makeCode(keys.toWIF());
