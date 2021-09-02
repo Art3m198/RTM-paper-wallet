@@ -30,7 +30,7 @@ body {
 
 .instruction {
   width: 1000px;
-  margin: 60px auto 20px auto;
+  margin: 8px auto 20px auto;
   position: relative;
   border: 2px dotted #999999;
   background-color: #fff;
@@ -57,7 +57,23 @@ body {
   top: 294px;
   letter-spacing: 0.08em;
 }
+.address-text-top, .secret-text-top {
+  right: 210px;
+  width: 120px;
+  font-size: 15px;
+}
 
+.secret-text-top {
+  top: 78px;
+  letter-spacing: 0.08em;
+}
+
+.address-text-top {
+  top: 294px;
+  letter-spacing: 0.08em;
+}
+.inline-pub { display: inline; }
+.inline-priv { display: inline; }
 .instruction-text {
   position: absolute;
   left: 356px;
