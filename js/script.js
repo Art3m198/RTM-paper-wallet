@@ -18,7 +18,7 @@ function getConfig() {
 					'private': 0x0488ade4
 				},
 				'pubKeyHash': 0x3c,
-				'scriptHash': 0x7a,
+				'scriptHash': 0x10,
 				'wif': 0x80
 			}
 		}
